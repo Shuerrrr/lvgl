@@ -841,7 +841,7 @@
         #ifdef CONFIG_LV_USE_USER_DATA
             #define LV_USE_USER_DATA CONFIG_LV_USE_USER_DATA
         #else
-            #define LV_USE_USER_DATA 0
+            #define LV_USE_USER_DATA 1
         #endif
     #else
         #define LV_USE_USER_DATA 1
